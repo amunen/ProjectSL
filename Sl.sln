@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sl.Service.Users.Api", "Sl.Service.Users.Api\Sl.Service.Users.Api.csproj", "{A0D65B56-5383-49B7-A668-5AA7CC33988A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sl.Services.Users", "Sl.Services.Users", "{B9DA17DA-BA60-47F7-AD1B-C11B465B55C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sl.Services.Identity", "Sl.Services.Identity", "{E9BBED11-5057-43E7-B5EC-6AEB0D5E4D0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sl.Services.Chats", "Sl.Services.Chats", "{EB27E2CC-918C-4CB1-8C4C-9C6AB5736804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sl.Services.Locations", "Sl.Services.Locations", "{CE8B60A3-0A08-4E77-86E2-BF9851B98C0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sl.Services.Timelines", "Sl.Services.Timelines", "{AA085617-8674-4798-A2A2-80E23858F563}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sl.Services.Notifications", "Sl.Services.Notifications", "{524262FF-624C-45F8-B69C-7EF3C790576E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sl.Services.Operations", "Sl.Services.Operations", "{FA3D4E3E-4C4D-48EF-A447-0E3AD92D17E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sl.Services.Searches", "Sl.Services.Searches", "{FAF6B01C-7E9A-4778-B6ED-376AF1B45185}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sl.Api.Gateway", "Sl.Api.Gateway", "{BB968A3E-2281-4AF6-A954-BA472CB41903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sl.Services.Identity.Api", "Sl.Services.Identity.Api\Sl.Services.Identity.Api.csproj", "{55E3C07D-6D0B-4D3C-B316-53E3F942E9E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0D65B56-5383-49B7-A668-5AA7CC33988A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D65B56-5383-49B7-A668-5AA7CC33988A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D65B56-5383-49B7-A668-5AA7CC33988A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D65B56-5383-49B7-A668-5AA7CC33988A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E3C07D-6D0B-4D3C-B316-53E3F942E9E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E3C07D-6D0B-4D3C-B316-53E3F942E9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E3C07D-6D0B-4D3C-B316-53E3F942E9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E3C07D-6D0B-4D3C-B316-53E3F942E9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0D65B56-5383-49B7-A668-5AA7CC33988A} = {B9DA17DA-BA60-47F7-AD1B-C11B465B55C1}
+		{55E3C07D-6D0B-4D3C-B316-53E3F942E9E0} = {E9BBED11-5057-43E7-B5EC-6AEB0D5E4D0F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EADF7B87-F24D-46D8-9FCC-6C0A15219349}
+	EndGlobalSection
+EndGlobal
